@@ -1,0 +1,20 @@
+lnkMarketname = //a[@title='<Market>']
+
+MarketHeader_image=//h2[@class='fa fa-map-o card-title ng-star-inserted'][text()='Market']
+MarketGridHeader=//p-header/caption[contains(text(),'Markets')]
+MarketColumn=//span/nm-th[text()=' Market ']
+MarketList=//td
+AnthemLogo=//nm-header-global//a[@href]//img
+LTSSAdminTool=//div[@class='productName  d-inline-block']//p[text()]
+StateMarket=//div[@class='subTitle ng-star-inserted']//p[text()]
+LoginVerify=//div[@class='userInfo']//div[@class='userRole']/nm-value
+LoginUserRole=//div[@class='userInfo']//div[@class='userName']/nm-value
+drpLTSSadminapp=//span[text()='LTSS']/../../../..//button
+btnviewltss=//span[text()='LTSS']/../../../..//button/..//div//a
+AdminDropdowns=//span[text()]
+btnviewltss=//span[text()='LTSS']
+drpCMproductapp=//span[text()='CM-Product-Admin']/../../../..//button
+btnviewCMproduct=//span[text()='CM-Product-Admin']
+btnviewltss=//a[text()=' LTSS ']
+btnviewCMproduct=//a[text()=' CM-Product-Admin ']
+lnkLTSS=//a[@title='LTSS Administrative Tool']

@@ -1,0 +1,30 @@
+2019-07-05 16:13:30,239 - Servicehooks.class -INFO - -------Scenario Started -------->  CMDM-33368_Admin Console: Create branching logic question on the assessment preview
+2019-07-05 16:13:33,902 - LoginPage.class -INFO - Enter user name
+2019-07-05 16:13:37,262 - LoginPage.class -INFO - Enter password
+2019-07-05 16:13:41,369 - LoginPage.class -INFO - Click on login button
+2019-07-05 16:13:42,252 - LoginPage.class -INFO - Login is successful 
+2019-07-05 16:13:47,451 - MarketPlace.class -INFO - Selected the Iowa Market
+2019-07-05 16:13:48,446 - LeftNavigation.class -INFO - Click on AssessmentFormBuilder button
+2019-07-05 16:13:49,234 - LeftNavigation.class -INFO - AssessmentBuilder is displayed
+2019-07-05 16:13:49,411 - LeftNavigation.class -INFO - Click on AssessmentBuilder button
+2019-07-05 16:13:50,869 - AssessmentBuilder.class -INFO - AddAssessment is  clicked
+2019-07-05 16:14:02,211 - BranchingLogic.class -INFO - Section Main added
+2019-07-05 16:14:10,668 - AssessmentBuilder.class -INFO - AddQuestion is  clicked
+2019-07-05 16:14:14,797 - AssessmentBuilderaddQuestion.class -INFO - The Question Response selected is Drop down
+2019-07-05 16:14:19,585 - AssessmentBuilderaddQuestion.class -INFO - **Passed ** When user selects Drop down Insert Answer, Answer Order, Answer Text and Answer Score Value is displayed
+2019-07-05 16:14:19,586 - AssessmentBuilderaddQuestion.class -INFO - **Passed ** Submit and Submit & Add New button on the add question page is disabled
+2019-07-05 16:14:19,587 - AssessmentBuilderaddQuestion.class -INFO - **Passed ** When user selects Drop down and Include in scoring is False, Answer Score Value is not displayed
+2019-07-05 16:14:32,352 - AssessmentBuilderaddQuestion.class -INFO - **Passed ** After clicking on submit user shall land on the previous page 
+2019-07-05 16:14:35,753 - AssessmentBuilder.class -INFO - AddQuestion is  clicked
+2019-07-05 16:14:40,034 - AssessmentBuilderaddQuestion.class -INFO - The Question Response selected is Checkbox Group
+2019-07-05 16:14:44,974 - AssessmentBuilderaddQuestion.class -INFO - **Passed ** When user selects Checkbox Group Insert Answer, Answer Order, Answer Text and Answer Score Value is displayed
+2019-07-05 16:14:44,975 - AssessmentBuilderaddQuestion.class -INFO - **Passed ** Submit and Submit & Add New button on the add question page is disabled
+2019-07-05 16:14:44,977 - AssessmentBuilderaddQuestion.class -INFO - **Passed ** When user selects Checkbox Group and Include in scoring is False, Answer Score Value is not displayed
+2019-07-05 16:14:58,567 - AssessmentBuilderaddQuestion.class -INFO - **Passed ** After clicking on submit user shall land on the previous page 
+2019-07-05 16:15:21,038 - BranchingLogic.class -INFO - After clicking branching image modal with Header Title: Branching Questions opens
+2019-07-05 16:15:24,085 - BranchingLogic.class -INFO - Question added
+2019-07-05 16:16:03,432 - AssessmentBuilderaddQuestion.class -INFO - Clicked on Preview button of Assessment that was created
+2019-07-05 16:16:11,395 - BranchingLogic.class -INFO - Question is present in Section
+2019-07-05 16:16:20,364 - BranchingLogic.class -INFO - Branched Question is present in assessment
+2019-07-05 16:16:21,475 - Servicehooks.class -INFO - ****Passed**** -  CMDM-33368_Admin Console: Create branching logic question on the assessment preview
+2019-07-05 16:16:24,862 - Servicehooks.class -INFO - -------Scenario Ended -------->  CMDM-33368_Admin Console: Create branching logic question on the assessment preview

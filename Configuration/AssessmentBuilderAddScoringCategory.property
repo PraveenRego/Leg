@@ -1,0 +1,6 @@
+lblerrormsgScoreLowRange=//nm-input[@id='errorMessage']/p
+lblerrormsgScoreHighRange=//nm-input[@id='errorMessage']/p
+lblScoringCategory=//caption[text()='Scoring Category']
+btnSubmit=//button[text()='Submit']
+btnBack=//button[contains(text(),'Back')]
+lblerrormsgoverlap=//p[contains(text(),'Score range values should not overlap')]

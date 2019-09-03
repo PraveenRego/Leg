@@ -1,0 +1,7 @@
+MetricsSource,UserId,ApplicationName,ScriptName,ManualTestCaseExecutionEffort,DateOfExecution,StartTime,EndTime,ElapsedTime,PassCount,FailCount,TotalIterationExecuted,JIRA_TestKey,JIRA_ProjectName,ITTeam_Name,JIRA_Readiness
+HIP_CMDM_Lighthouse ,AF83579,Healthy Innovations Platform.Nimbus,CMDM-30416,0:40:00,,,,,,,1,,,CMDM Pirates,No
+HIP_CMDM_Lighthouse ,AF83579,Healthy Innovations Platform.Nimbus,CMDM-30406,0:15:00,,,,,,,1,,,CMDM Pirates,No
+HIP_CMDM_Lighthouse ,AF83579,Healthy Innovations Platform.Nimbus,CMDM-30412,0:05:00,,,,,,,1,,,CMDM Pirates,No
+HIP_CMDM_Lighthouse ,AF83579,Healthy Innovations Platform.Nimbus,CMDM-30418,0:10:00,,,,,,,1,,,CMDM Pirates,No
+HIP_CMDM_Lighthouse ,AF83579,Healthy Innovations Platform.Nimbus,CMDM-30419,0:50:00,,,,,,,1,,,CMDM Pirates,No
+HIP_CMDM_Lighthouse ,AF61639,Healthy Innovations Platform.Nimbus,CMDM-30408,0:30:00,,,,,,,1,,,CMDM Pirates,No

@@ -1,0 +1,6 @@
+hdrAssessmentLinkingtoTasks=//h2[text()='Assessment Linking to Tasks']
+lblAssessmentnamevalue=//label[text()=' Assessment Name ']/../../..//p
+swthAssessmentForm=//label[contains(text(),'Assessment/Form')]/../../..//span[@class='ui-inputswitch-slider']
+swthAssessmentFormcheck=//label[contains(text(),'Assessment/Form')]/../../..//div 
+drpvaluesTasks=//label[contains(text(),'Tasks')]/../../..//li/span
+drpTasks=//label[contains(text(),'Tasks')]/../../..//p-dropdown

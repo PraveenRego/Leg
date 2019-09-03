@@ -1,0 +1,15 @@
+lnkAssessmentFormBuilder=//span[contains(text(),'Assessment/Form Builder')]
+lnkAssessmentBuilder=//span[contains(text(),'Assessment Builder')]
+MarketHeader_image=//h2[@class='fa fa-map-o card-title ng-star-inserted'][text()='Market Place']
+MarketGridHeader=//p-header/caption[contains(text(),'Markets')]
+AnthemLogo=//nm-header-global//a[@href]//img
+LTSSAdminTool=//div[@class='productName  d-inline-block']//p[text()]
+StateMarket=//div[@class='subTitle ng-star-inserted']//p[text()]
+LoginVerify=//div[@class='userInfo']//div[@class='userRole']/nm-value
+LoginUserRole=//div[@class='userInfo']//div[@class='userName']/nm-value
+MarketSetup=//span[text()='Market Setup']
+UserRoleManagement=//span[text()='User & User Role Management']
+Dashboards=//span[text()='Dashboards']
+WorkFlowTasks=//span[text()='WorkFlows & Tasks']
+AssessmentFormBuilder=//span[text()='Assessment/Form Builder']
+AssessmentBuilder=//span[text()='Assessment Builder']

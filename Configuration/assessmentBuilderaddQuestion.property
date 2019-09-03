@@ -1,0 +1,162 @@
+lblInsertAnswer=//label[@for='insertAnswer']/../../..//div//label
+drpdownitemsInsertAnswer=//label[@for='insertAnswer']/../../..//div//p-dropdownitem//li
+lblAnswerOrder=//label[contains(text(),'Answer Order')]
+lblAnswerText=//label[contains(text(),'Answer Text')]
+btnAdd=//button[text()='Add']
+btnSave=//button[text()='Save']
+tblanswer=//table//tbody//tr
+lblNorecordsfound=//td[contains(text(),'No records found')]
+btneditrecentrow=//table//tbody//tr[last()]//button[@title='Edit'] 
+btndeleterecentrow=//table//tbody//tr[last()]//button[@title='Delete'] 
+lblerroranswerorder=//span[text()='Only numerical values allowed']
+lblerrorvalidscore=//span[text()='Please enter a valid score']
+tblhdranswergrid=//th//nm-th
+btnSubmit&AddNew=//button[contains(text(),'Submit & Add New')]
+hdrQuestion=//h2[text()='Add Question']
+btnSubmit=//button[text()='Submit']
+lblQuestionSection=//h2[contains(text(),'Question')]
+lblQuestionOrder=//label[contains(text(),'Question Order')]
+inpQuestionOrder=//input[@id='questionOrder']
+lblQuestionDesc=//label[contains(text(),'Question Description')]
+inpQuestionDesc=//input[@id='questionDesc']
+lblQuestionID=//label[contains(text(),'Question ID')]
+wrngmsgQuestionOrder=//input[@id='questionOrder']/../..//ul//li//span[contains(text(),'Only numerical values allowed')]
+lblQuestionResponseType=//label[contains(text(),'Question Response Type')]
+drpQuestionResponseType=//label[contains(text(),'Question Response Type')]/../../..//div
+drpitemsQuestionType=//label[contains(text(),'Question Response Type')]/../../..//div//div//div/ul/p-dropdownitem/li/span
+lblConceptCodeDesc=//label[contains(text(),'Concept Code Description')]
+inpConceptCodeDesc=//input[@id='conceptCDDesc']
+lblConceptCode=//label[@for='conceptCD']
+inpConceptCode=//input[@id='conceptCD']
+lblConceptID=//label[contains(text(),'Concept ID')]
+inpConceptID=//input[@id='conceptId']
+lblReqQuestforAssesmnt=//label[contains(text(),'Required Question for an assessment')]
+swtchReqQuestforAssesmnt=(//label[contains(text(),'Required Question for an assessment')]/../../..//div)[1]
+lblInclinScoring=//label[contains(text(),'Include in Scoring')]
+swtchInclinScoring=(//label[contains(text(),'Include in Scoring')]/../../..//div)[1]
+lblAssessmntSction=//label[contains(text(),'Assessment Section')]
+drpAssessmntSction=//label[contains(text(),'Assessment Section')]/../../..//div
+drpitemsAssessmntSction=//label[contains(text(),'Assessment Section')]/../../..//div//div//div/ul/p-dropdownitem/li/span
+lblToolTip=//label[contains(text(),'Tool Tip')]
+inpToolTip=//input[@id='toolTip']
+lblScoringCategory=//label[contains(text(),'Scoring Category')]
+inpScoringCategory=//input[@id='scoringCategory']
+lblScoringError=//p[text()='*Please enter score value to answer response']
+drpdownScoringCategory=//label[@for='scoringCategory']/../../..//p-dropdown
+lblerrorduplicateanswerresponse=//p[contains(text(),'*Answer response already exists')]
+drpscoringcategory=//label[contains(text(),'Scoring Category')]/../../p-dropdown
+btnexpandquestioningrid=//*[@id='questionInAccordian']//tbody//tr[last()]//a
+hdrAnswerorder=//nm-th[contains(text(),'Answer Order')]
+lblanswerordergridlast=(//tbody/tr[last()]//td//span/span)[1]
+msganswerordererror=//span[text()='Only numerical values allowed']
+btnSubmitandAddNew=//button[contains(text(),'Submit & Add New')]
+btnSubmit=//button[text()='Submit']
+btnBack=//button[text()='Back']
+hdrAddAssessment=//h2[contains(text(),'Add Assessment')]
+grdhdrAssessmentTemplate=//p-header/caption[contains(text(),'Assessment Template')]
+grddefaultsection=//p-header/../..//p-table//tr[1]/td[3]//span[@title='Default Section']
+lnkexpanddefaultsection=(//p-header/../..//p-table//tr[1]/td[1]/a/i)[1]
+grdquestiondetails=//p-header/../..//p-table//tr//table//tbody/tr
+lblScoringError=//p[text()='*Please enter score value to answer response']
+lblerrorduplicateanswerresponse=//p[contains(text(),'*Answer response already exists')]
+drpscoringcategory=//label[contains(text(),'Scoring Category')]/../../p-dropdown
+btnexpandquestioningrid=//*[@id='questionInAccordian']//tbody//tr[last()]//a
+hdrAnswerorder=//nm-th[contains(text(),'Answer Order')]
+lblanswerordergridlast=(//tbody/tr[last()]//td//span/span)[1]
+msganswerordererror=//span[text()='Only numerical values allowed']
+btneditquestion=(//p-header/../..//p-table//tr//table//tbody/tr/td[6]//following::span/nm-button/button[@title='Edit'])[<num>]
+btndeletequestion=(//p-header/../..//p-table//tr//table//tbody/tr/td[6]//following::span/nm-button/button[@title='Delete'])[<num>]
+hdreditquestion=//h2[contains(text(),'Edit Question')]
+btneditfirstanswer=(//button[@title='Edit'])[1]
+btnsave=//button[contains(text(),'Save')]
+hdrEditAssessment=//h2[contains(text(),'Edit Assessment')]
+inpsectionlabel=//label[contains(text(),'Add Section')]/../../../../..//input[@id='label']
+modalwindowdeleteques=//div[@role='dialog']
+wrngmsgdeletequestion=//div[@role='dialog']//nm-paragraph[@id='confirmMsg']
+wrngmsgtextdeletequestion=//div[@role='dialog']//p[contains(text(),'Are you sure, you want to delete this question?')]
+btncanceldeletequestion=//div[@role='dialog']//button[contains(text(),'Cancel')]
+btnyesdeletequestion=//div[@role='dialog']//button[contains(text(),'Yes')]
+hdrEditAssessment=//h2[contains(text(),'Edit Assessment')]
+lnkexpandsubsection1=//p-header/../..//p-table//tr[2]/td[1]/a/i[@class='fa fa-fw fa-chevron-circle-right ui-row-toggler']
+txtquestionorderinassesstemp=(//p-header/../..//p-table//tr//table//tbody/tr//span/span[@class='fieldValue questionOrder '])[<num>]
+txtquestionidassesstemp=(//p-header/../..//p-table//tr//table//tbody/tr//span/span[@class='fieldValue questionId '])[<num>]
+lnkexpandfirstmainsection=//p-header/../..//p-table//tr[2]/td[1]/a/i
+lnkexpandsubsectionwithmain=//p-header/../..//p-table//tr[3]/td[1]/a/i
+lnkexpandsubsectionwithoutmain=//p-header/../..//p-table//tr[4]/td[1]/a/i
+txtfirstmainsectionsectionorder=//p-header/../..//p-table//tr[2]/td[2]//span/span[@class='fieldValue attributeOrder ']
+txtsubundermainsectionorder=//p-header/../..//p-table//tr[3]/td[2]//span/span[@class='fieldValue attributeOrder ']
+txtsubwithoutmainsectionorder=//p-header/../..//p-table//tr[4]/td[2]//span/span[@class='fieldValue attributeOrder ']
+txtsecondmainsectionorder=//p-header/../..//p-table//tr[4]/td[2]//span/span[@class='fieldValue attributeOrder ']
+txtsecondsubwithoutmainsectionorder=//p-header/../..//p-table//tr[6]/td[2]//span/span[@class='fieldValue attributeOrder ']
+btneditsecondsubsecwithoutmain=//p-header/../..//p-table//tr[6]/td[2]//following::button[@title='Edit']
+txtsecondsubafterupdate=//p-header/../..//p-table//tr[5]/td[2]//span/span[@class='fieldValue attributeOrder ']
+lnkexpandsubsection2=//p-header/../..//p-table//tr[5]/td[1]/a/i
+listdrpdownitemsInsertAnswer=//label[contains(text(),'Insert Answer')]/../../..//p-dropdown//li
+lblinsertans=//label[@for='insertAnswer']
+fltrassessmentname=//th[1]//div[@class='filterHolder']//input
+btnpreviewofassessment=//button[@title='Preview']
+hdrPreviewpage=//h1
+chkboxdefaultsectionpreview=(//label[@class='custom-control custom-check'])[1]
+chkboxmainsectionpreview=(//h2/../../../../..//label[@class='custom-control custom-check'])[1]
+chkboxsubsectionwithmainpreview=(//h2/../../../../..//label[@class='custom-control custom-check'])[2]
+chkboxsubsectionwithoutmainpreview=(//label[@class='custom-control custom-check'])[4]
+lblquestion1defaultsection=(//h1/../..//span/..//div//following::legend)[1]
+lblquestion2defaultsection=//h1/../../../..//following::label[@for='NIM_200266']
+lblquestion3defaultsection=//h1/../../../..//following::label[@for='NIM_200267']
+lblquestion5defaultsection=//h1/../../../..//following::label[@for='NIM_200269']
+lblquestion6defaultsection=//h1/../../../..//following::label[@for='NIM_200270']
+lblquestion7defaultsection=//h1/../../../..//following::label[@for='NIM_200271']
+lblradiobtndefaultsection=(//h1/../..//legend)[2]
+lblradiobtnmainsection=(//h1/../..//legend)[4]
+lblradiobtnsubsectionwithmain=(//h1/../..//legend)[7]
+lblradiobtnsubsectionwithoutmain=(//h1/../..//legend)[10]
+datedefaultsectionpreview=(//button/span[@class='ui-button-icon-left ui-clickable pi pi-calendar'])[1]
+datemainsectionpreview=(//button/span[@class='ui-button-icon-left ui-clickable pi pi-calendar'])[2]
+datesubsectionwithmainpreview=(//button/span[@class='ui-button-icon-left ui-clickable pi pi-calendar'])[3]
+datesubsectionwithoutmainpreview=(//button/span[@class='ui-button-icon-left ui-clickable pi pi-calendar'])[4]
+drpdowndefaultsectionpreview=//h1/../../../..//following::label[@for='NIM_200267']/../../..//p-dropdown
+drpdownmainsectionpreview=//h1/../../../..//following::label[@for='NIM_200274']/../../..//p-dropdown
+drpdownsubsectionwithoutmain=//h1/../../../..//following::label[@for='NIM_200281']/../../..//p-dropdown
+drpdownsubsectionwithmain=//h1/../../../..//following::label[@for='NIM_200288']/../../..//p-dropdown
+radiobtndefaultsection=(//h1/../..//legend)[2]/../..//div[@class='checkboxHolder']
+radiobtnmainsection=(//h1/../..//legend)[4]/../..//div[@class='checkboxHolder']
+radiobtnsubsectionwithmain=(//h1/../..//legend)[7]/../..//div[@class='checkboxHolder']
+radiobtnsubsectionwithoutmain=(//h1/../..//legend)[10]/../..//div[@class='checkboxHolder']
+signcanvasdefaultsection=//h1/../../../..//following::label[@for='NIM_200269']/../..//canvas
+signcanvasmainsection=//h1/../../../..//following::label[@for='NIM_Q14']/../..//canvas
+signcanvassubsectionwithoutmain=//h1/../../../..//following::label[@for='NIM_Q22']/../..//canvas
+signcanvassubsectionwithmain=//h1/../../../..//following::label[@for='NIM_Q30']/../..//canvas
+txtareadefaultsection=//h1/../../../..//following::label[@for='NIM_Q6']/../..//textarea
+txtareamainsection=//h1/../../../..//following::label[@for='NIM_Q15']/../..//textarea
+txtareasubsectionwithoutmain=//h1/../../../..//following::label[@for='NIM_Q23']/../..//textarea
+txtareasubsectionwithmain=//h1/../../../..//following::label[@for='NIM_Q31']/../..//textarea
+txtfielddefaultsection=//h1/../../../..//following::label[@for='NIM_Q7']/../..//input
+txtfieldmainsection=//h1/../../../..//following::label[@for='NIM_Q16']/../..//input
+txtfieldsubsectionwithoutmain=//h1/../../../..//following::label[@for='NIM_Q24']/../..//input
+txtfieldsubsectionwithmain=//h1/../../../..//following::label[@for='NIM_Q32']/../..//input
+hdrmainsectioninpreview=//h1/../..//h2
+accrdianmainsection=//h1/../..//p-accordiontab
+hdrsubsection=(//h1/../..//legend)[3]
+hdrsubsectionwithoutmain=(//h1/../..//legend)[5]
+lblquestion1mainsection=(//h1/../..//span[@class='custom-control-description'])[2]
+lblquestion2mainsection=//h1/../../../..//following::label[@for='NIM_Q11']
+lblquestion3mainsection=//h1/../../../..//following::label[@for='NIM_200274']
+lblquestion5mainsection=//h1/../../../..//following::label[@for='NIM_Q14']
+lblquestion6mainsection=//h1/../../../..//following::label[@for='NIM_Q15']
+lblquestion7mainsection=//h1/../../../..//following::label[@for='NIM_Q16']
+hdrsubsectionwithmain=(//h1/../..//nm-frm-grp[@class='colorBox2 ng-star-inserted']//fieldset//div//legend)[1]
+lblquestion1subsectionwithmain=(//h1/../..//span[@class='custom-control-description'])[3]
+lblquestion2subsectionwithmain=//h1/../../../..//following::label[@for='NIM_Q27']
+lblquestion3subsectionwithmain=//h1/../../../..//following::label[@for='NIM_200288']
+lblquestion5subsectionwithmain=//h1/../../../..//following::label[@for='NIM_Q30']
+lblquestion6subsectionwithmain=//h1/../../../..//following::label[@for='NIM_Q31']
+lblquestion7subsectionwithmain=//h1/../../../..//following::label[@for='NIM_Q32']
+lblquestion1subsectionwithoutmain=(//h1/../..//span[@class='custom-control-description'])[4]
+lblquestion2subsectionwithoutmain=//h1/../../../..//following::label[@for='NIM_Q19']
+lblquestion3subsectionwithoutmain=//h1/../../../..//following::label[@for='NIM_200281']
+lblquestion5subsectionwithoutmain=//h1/../../../..//following::label[@for='NIM_Q22']
+lblquestion6subsectionwithoutmain=//h1/../../../..//following::label[@for='NIM_Q23']
+lblquestion7subsectionwithoutmain=//h1/../../../..//following::label[@for='NIM_Q24']
+drpdownvaluespreview=//h1/../../../..//following::label[@for='NIM_Q3']/../../..//p-dropdown//li
+lblanswervalue=//*[@id='answersList']//td[3]//span/span
+lnknextpage=(//a[@class='ui-paginator-next ui-paginator-element ui-state-default ui-corner-all'])[2]

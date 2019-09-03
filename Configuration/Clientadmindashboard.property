@@ -1,0 +1,2 @@
+hdrprograms=//caption[contains(text(),'Programs')]
+lnkprogramlist=//nm-link[@id='programName']

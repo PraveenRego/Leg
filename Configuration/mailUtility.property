@@ -1,0 +1,9 @@
+generateemail=Yes
+key=mail.smtp.host
+value=smtpinternal.wellpoint.com
+addressFrom=QA_LTSSAdmin_AUTOMATION
+#recipients=firdous.fatima@anthem.com;shambhu.thakur@anthem.com;jayasri.yellambhotla@anthem.com;nivedida.neduncheliyan@anthem.com;janedaisy.sampath@legatohealth.com;praveen.rego@legatohealth.com
+recipients=jayasri.yellambhotla@anthem.com
+reportname= AdminBuilder
+mailbody=Please find the QA automation results of LTSS Admin attached
+#mailbody=Mail test

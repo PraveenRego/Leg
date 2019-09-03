@@ -1,0 +1,128 @@
+btnAddAssessment=//button[contains(text(),'Add Assessment')]
+btnAddQuestion=//button[contains(text(),'Add Question')]
+btnSubmit=//button[contains(text(),'Submit')]
+btnAddScoringCategory=//button[contains(text(),'Add Scoring Category')]
+btnAssessmentName=//label[contains(text(),'Assessment Name')]
+btnCombineScoringCategory=//button[contains(text(),'Combine Scoring Categories')]
+lblScoringCategories=//caption[text()='Scoring Categories']
+lblScoringCategoriesnumberofrecords=//caption[text()='Scoring Categories']/../..//div
+lblScoringCategoriestablerows=//caption[text()='Scoring Categories']/../../..//table//tbody//tr
+lblScoringCategoriestablerows=//caption[text()='Scoring Categories']/../../..//table//tbody//tr[last()]
+btnScoringCategoriesfilter=//caption[text()='Scoring Categories']/../..//button
+inpScoringCategoriesfilter=//caption[text()='Scoring Categories']/../../..//th//input
+btnforward=(//caption[text()='Scoring Categories']/../../..//span[@class='ui-paginator-icon pi pi-step-forward'])[1]
+lbltableheaders=//caption[text()='Scoring Categories']/../../..//th//nm-th
+btnexpandrow=//caption[text()='Scoring Categories']/../../..//tr[<rownum>]//td[1]//a
+lblexpandrowdata=//nm-th[contains(text(),'Score Range')]/../../../../..//span/span
+hdrAddAssessment=//h2[contains(text(),'Add Assessment')]
+AddAssessment=//button[text()=' Add Assessment ']
+PageHeader=//nm-label[@id='addAssessmentTile']
+AssessmentName=//nm-input[@id='name']//label
+AssessmentLinks=//nm-button[@id='<link>']//button[@disabled]
+AssessmentTemplateGrid=//p-header/caption[text()]
+GridColumns=//nm-table[@id='sectionDetailLineItem']//th//nm-th
+GridHeader=//nm-table[@id='sectionDetailLineItem']//p-header/caption[text()][1]
+AssName=//nm-input[@id='name']//input
+Links=//nm-button[@id='<link>']
+ModalwindowBack=//div[@id='modalSection']//button[text()='<link>']
+NoRecordsFound=//tbody//tr/td[contains(text(),'No records found')]
+LastPage=//span[@class='ui-paginator-icon pi pi-step-forward']
+ExpandRow=//nm-table[@id='sectionDetailLineItem']//span[@title='Default Section']/../../..//a
+AddQuestion=//button[text()=' Add Question ']
+AddSection=//button[text()=' Add Section ']
+ModalHeader=//div[@role='dialog']//label[text()]
+Labels=//div[@role='dialog']//label[@for='<label>']
+MainSection=//nm-table[@id='sectionDetailLineItem']//div[@class='scrollGrid']//tr//td['<i>']
+Submit=//div[@role='dialog']//button[text()='<link>']
+AssessmentBuilderHeader=//h2[@class='fa fa-map-o card-title ng-star-inserted'][text()='Assessment Builder']
+AssessmentBuilderGridHeader=//p-header/caption[contains(text(),'Assessments/Forms')]
+ABRowsInGrid=//nm-table//div//p-header/caption[contains(text(),'Assessments/Forms')]//ancestor::nm-table//table//tbody//tr
+NoRecordsFound=//tbody//tr/td[contains(text(),'No records found')]
+FilterIcon=//button[contains(@title,'show grid filters')]
+inpFiltervalue=(//caption[text()='Assessments/Forms']/../../..//th//input)[1]
+btnlinkrecentrow=//table//tbody//tr[last()]//button[@title='Link']
+btnAssessmentfilter=//caption[text()='Assessments/Forms']/../..//button
+EditAssessment=//div[@class='scrollGrid']//tbody/../..//button[@title='Edit']
+FirstfieldFilter=//th[1]//div[@class='filterHolder']//input
+SecondFilterField=//th[2]//div[@class='filterHolder']//input
+MainSectionEdit=//span[@title='<MainSection>']/../../..//button[@title='Edit']
+MainSectionDelete=//span[@title='<MainSection>']/../../..//button[@title='Delete']
+SubSectionEdit=//span[@title='<SubSection>']/../../..//button[@title='Edit']
+SubSectionDelete=//span[@title='<SubSection>']/../../..//button[@title='Delete']
+deleteHeader=//div[@role='dialog']//p-header//label
+deleteMsg=//nm-form[@id='confirmationForm']//p
+deleteYes=//nm-form[@id='confirmationForm']//nm-button[@id='btnOk']//button
+deleteCancel=//nm-form[@id='confirmationForm']//nm-button[@id='back']//button
+SectionType=//nm-combobox[@id='sectionType']//label/../../../p-dropdown
+SectionTypeInput=//nm-combobox[@id='sectionType']//label/../../../p-dropdown//input
+SecSecondaryRow=//nm-table[@id='sectionDetailLineItem']//div[@class='scrollGrid']//tbody//tr['<row>']//td[1]
+SecOrder=//nm-table[@id='sectionDetailLineItem']//div[@class='scrollGrid']//tbody//tr['<row>']//td[2]
+SecName=//nm-table[@id='sectionDetailLineItem']//div[@class='scrollGrid']//tbody//tr['<row>']//td[3]
+SecMainLink=//nm-table[@id='sectionDetailLineItem']//div[@class='scrollGrid']//tbody//tr['<row>']//td[4]
+SecEditbtn=//nm-table[@id='sectionDetailLineItem']//div[@class='scrollGrid']//tbody//tr['<row>']//td[5]//button[@title='Edit']
+SecDelbtn=//nm-table[@id='sectionDetailLineItem']//div[@class='scrollGrid']//tbody//tr['<row>']//td[6]//button[@title='Delete']
+Showlabel=//div[@role='dialog']//nm-single-checkbox[@id]//span[text()='Show Label ']
+AssSecDropdown=//label[@for='assessementSection']//ancestor::nm-combobox//div
+AssSecSize=//label[@for='assessementSection']//ancestor::nm-combobox//div//p-dropdownitem
+MainSecDropdown=//div[@role='dialog']//label[@for='mainSectionType']//ancestor::nm-combobox//div//label
+MainSecSize=//div[@role='dialog']//label[@for='mainSectionType']//ancestor::nm-combobox//p-dropdownitem
+SectionRow=//nm-table[@id='sectionDetailLineItem']//tbody//tr
+QuesRow=//nm-table[@id='questionLineItem']//tbody//tr
+DescQues=//nm-table[@id='questionLineItem']//div[@class='scrollGrid']//tbody//tr[1]//td[3]
+DupAssMsg=//nm-message[@id='name']//div//span[text()]
+DupSecMSg=//div[@role='dialog']//nm-message[@id='label']//div//span[text()]
+QuesSecRow=//nm-table[@id='questionLineItem']/../../..//td[1]
+QuesEdit=//nm-table[@id='questionLineItem']/../../../..//button[@title='Edit']
+QuesDelete=//nm-table[@id='questionLineItem']/../../../..//button[@title='Delete']
+SecRow=//nm-table[@id='sectionDetailLineItem']/../../..//td[1]
+SecEdit=//nm-table[@id='sectionDetailLineItem']/../../../..//button[@title='Edit']
+SecDelete=//nm-table[@id='sectionDetailLineItem']/../../../..//button[@title='Delete']
+InsertAnswer=//nm-combobox[@id='insertAnswer']/./p-dropdown//label[text()]
+AssessmentPageGrids=//nm-table[@id='<gridName>']//tbody//tr/td[contains(text(),'No records found')]
+btnAddAssessment=//button[contains(text(),'Add Assessment')]
+btnAddQuestion=//button[contains(text(),'Add Question')]
+btnSubmit=//button[contains(text(),'Submit')]
+btnAddScoringCategory=//button[contains(text(),'Add Scoring Category')]
+btnAssessmentName=//label[contains(text(),'Assessment Name')]
+btnCombineScoringCategory=//button[contains(text(),'Combine Scoring Categories')]
+lblScoringCategories=//caption[text()='Scoring Categories']
+lblScoringCategoriesnumberofrecords=//caption[text()='Scoring Categories']/../..//div
+lblScoringCategoriestablerowsdata=//caption[text()='Scoring Categories']/../../..//table//tbody//tr
+lblScoringCategoriestablerows=//caption[text()='Scoring Categories']/../../..//table//tbody//tr[last()]
+btnScoringCategoriesfilter=//caption[text()='Scoring Categories']/../..//button
+inpScoringCategoriesfilter=//caption[text()='Scoring Categories']/../../..//th//input
+btnforward=(//caption[text()='Scoring Categories']/../../..//span[@class='ui-paginator-icon pi pi-step-forward'])[1]
+lbltableheaders=//caption[text()='Scoring Categories']/../../..//th//nm-th
+btnexpandrow=//caption[text()='Scoring Categories']/../../..//tr[<rownum>]//td[1]//a
+lblexpandrowdata=//nm-th[contains(text(),'Score Range')]/../../../../..//span/span
+hdrAddAssessment=//h2[contains(text(),'Add Assessment')]
+AddAssessment=//button[text()=' Add Assessment ']
+PageHeader=//nm-label[@id='addAssessmentTile']
+AssessmentName=//nm-input[@id='name']//label
+AssessmentLinks=//nm-button[@id='<link>']//button[@disabled]
+AssessmentTemplateGrid=//p-header/caption[text()]
+GridColumns=//nm-table[@id='sectionDetailLineItem']//th//nm-th
+GridHeader=//nm-table[@id='sectionDetailLineItem']//p-header/caption[text()][1]
+AssName=//nm-input[@id='name']//input
+Links=//nm-button[@id='<link>']
+NoRecordsFound=//tbody//tr/td[contains(text(),'No records found')]
+LastPage=//span[@class='ui-paginator-icon pi pi-step-forward']
+ExpandRow=//nm-table[@id='sectionDetailLineItem']//div[@class='scrollGrid']//tr[@tabindex='0']//i
+AddQuestion=//button[text()=' Add Question ']
+AddSection=//button[text()=' Add Section ']
+Labels=//div[@role='dialog']//label[@for='<label>']
+MainSection=//nm-table[@id='sectionDetailLineItem']//div[@class='scrollGrid']//tr//td['<i>']
+Submit=//div[@role='dialog']//button[text()='<link>']
+AssessmentBuilderHeader=//h2[@class='fa fa-map-o card-title ng-star-inserted'][text()='Assessment Builder']
+AssessmentBuilderGridHeader=//p-header/caption[contains(text(),'Assessments/Forms')]
+ABRowsInGrid=//nm-table//div//p-header/caption[contains(text(),'Assessments/Forms')]//ancestor::nm-table//table//tbody//tr
+NoRecordsFound=//tbody//tr/td[contains(text(),'No records found')]
+FilterIcon=//i[contains(@class,'fa fa-fw fa-filter hidden')]
+inpFiltervalue=(//caption[text()='Assessments/Forms']/../../..//th//input)[1]
+btnlinkrecentrow=//table//tbody//tr[last()]//button[@title='Link']
+btnAssessmentfilter=//caption[text()='Assessments/Forms']/../..//button
+btneditScoringcategoriesgrid=//caption[text()='Scoring Categories']/../../..//tr[<rownum>]//button[@title='Edit']
+btndeleteScoringcategoriesgrid=//caption[text()='Scoring Categories']/../../..//tr[<rownum>]//button[@title='Delete']
+lblnorecordsScoringcategoriesgrid=//caption[text()='Scoring Categories']/../../..//td[contains(text(),'No records found')]
+ColumnsList=//nm-table[@id='questionLineItem']//th//nm-th
+ScoreHeader=//h2[text()]

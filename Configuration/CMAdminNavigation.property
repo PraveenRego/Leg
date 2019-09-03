@@ -1,0 +1,2 @@
+lnkTemplateManagement=//span[contains(text(),'Template Management')]
+lnkAdminBuilderTool=//span[contains(text(),'Admin Builder Tool')]

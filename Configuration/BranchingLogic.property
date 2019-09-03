@@ -1,0 +1,37 @@
+btnBranching=//button[@title='Branching']
+branchingModalTilte=//p-header//label[contains(text(),'Branching Questions')]
+addSection=//button[contains(text(),'Add Section')]
+sectionType=//label[contains(text(),'Section Type')]/../../..//div
+mainSection=(//label[contains(text(),'Section Type')]/../../..//div//li)[1]
+btnSubmitAddSection=(//button[text()='Submit'])[2]
+onLoadSection=//label[contains(text(),'Select Section')]//parent::nm-input-label//following-sibling::p-dropdown
+qstnpicklist=(//div[@class='ui-picklist ui-widget ui-helper-clearfix ui-picklist-responsive']//div[contains(text(),'Questions')])[1]
+qstnaddedpicklist=(//div[@class='ui-picklist ui-widget ui-helper-clearfix ui-picklist-responsive']//div[contains(text(),'Questions Added')])[1]
+selectSectioninmodal=//label[contains(text(),'Select Section')]/../../..//div
+selectSectionlist=(//label[contains(text(),'Select Section')]/../../..//div//li)
+selectoneSection=(//label[contains(text(),'Select Section')]/../../..//div//li)[2]
+questionpicklistvalue=//div[contains(text(),'Questions')]/..//li[1]/div/div
+btnAddbranching=//label[contains(text(),'Branching Questions')]/../../../../..//button[text()='Add']
+questionaddedpicklistvalue=//div[contains(text(),'Questions Added')]/..//li[1]/div/div
+btnpicklistleft=//div[@class='ui-picklist-buttons-cell']/button[@icon='pi pi-angle-left']
+lblBranchedQuestions=//caption[text()='Branched Questions']
+branchedQuestionHeader=//p-header/parent::span/parent::div/parent::div//th//nm-th
+btndeleteBranchedQuestion=(//button[@title='Delete'])[4]
+btnSubmitmodal=(//button[contains(text(),'Submit')])[3]
+btnClosemodal=(//button[contains(text(),'Close')])[1]
+expandRow=//tbody/tr[1]//a/i
+expandRow1=//tbody/tr[1]//a	
+questionAdded=(//tr//tbody//td//span)[2]
+questiondescAdded=(//tr//tbody//td//span)[4]
+norecordsrow=//tr//tbody//td
+norecordshowonQuestionGrid=(//tr//tr//tr)[3]//td
+expandQuestionRow=(//tr//a)[3]
+expandrowBranching=(//tr//tr//tr)[2]//a
+branchinginQuestion=((//tr//tr//tr//tr)[2]//td//span)[2]
+questiondescAddedinQuestion=((//tr//tr//tr//tr)[2]//td//span)[4]
+childGridColhdranswersection=(//tr//tr)[1]//th//nm-th
+childGridcolumnheader=(//tr//tr//tr//tr)[1]//th//nm-th
+btndeletebranching=//nm-th[contains(text(),'Section Name')]/../../../../..//tr[last()]//button[@title='Delete']
+btnbranchingrows=//nm-th[contains(text(),'Section Name')]/../../../../..//tr//button[@title='Delete']
+btndoubleright=//div[@class='ui-picklist-buttons-cell']/button[@icon='pi pi-angle-double-right']
+btnrowcountinbranchmodal=//label[contains(text(),'Branching Questions')]/../../../../..//button[@title='Delete']

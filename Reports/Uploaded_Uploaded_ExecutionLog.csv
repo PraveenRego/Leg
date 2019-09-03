@@ -1,0 +1,5 @@
+MetricsSource,UserId,ApplicationName,ScriptName,ManualTestCaseExecutionEffort,DateOfExecution,StartTime,EndTime,ElapsedTime,PassCount,FailCount,TotalIterationExecuted,JIRA_TestKey,JIRA_ProjectName,ITTeam_Name,JIRA_Readiness
+ATAF,AF12450,,ProfessionalClaim_TS,0:30:00,1/24/2019,01/24/2019T 12:20:40,01/24/2019T 12:22:06,0:01:25,1,0,1,MANCORP-3960,Corporate Mandates,,YES
+ATAF,AF12450,,ProfessionalClaim_TS,0:30:00,1/24/2019,01/24/2019T 12:20:40,01/24/2019T 12:22:17,0:01:36,1,0,1,MANCORP-3962,Corporate Mandates,,YES
+ATAF,AF12450,,ProfessionalClaim_TS,0:30:00,1/24/2019,01/24/2019T 12:20:40,01/24/2019T 12:22:19,0:01:38,1,0,1,MANCORP-3961,Corporate Mandates,,YES
+CAF,,,,,,,,,,,,,,,

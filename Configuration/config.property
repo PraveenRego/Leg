@@ -1,0 +1,6 @@
+browser=CHROME
+chromedriverpath=//Drivers//chromedriver.exe
+
+URL=https://va33tlvnim300.wellpoint.com:8443/ltss-admin/login
+msgLoading = //div[contains(text(),'Loading.')]
+

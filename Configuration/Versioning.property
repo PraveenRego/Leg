@@ -1,0 +1,8 @@
+TempalteGridExpandRow=//nm-table[@id='assessmentLineItems']//tbody//span[@title]//..//..//..//a
+VersioningHeader=//nm-table[@id='publishList']//p-header/caption[text()]
+VersioningButtongroup=//nm-table[@id='publishList']/..//span[text()='<AssName>']/..//..//..//..//button[@title='<button>']
+VersioningWindowHeader=//div[@role='dialog']//p-header//label
+VersioningMessage=//div[@role='dialog']//nm-input[@id='warningMessage']//label
+VersoningButtons=//div[@role='dialog']//button[text()='<button>']
+VersioningPagination=..//..//p-header/caption[contains(text(),'Previously Published Version')]//..//..//..//tbody//tr
+VersionAssName=//nm-table[@id='publishList']//th//span//nm-th[text()='<GridName>']//..//..//..//..//..//span[text()='<AssName>']

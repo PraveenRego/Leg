@@ -1,0 +1,16 @@
+CloneAssName=//div[@role='dialog']//nm-form[@id='cloneAssessmentForm']//nm-input[@id='assessmentName']//label
+CloneAssNametext=//div[@role='dialog']//nm-form[@id='cloneAssessmentForm']//nm-input[@id='assessmentName']//label[text()]
+CloneAssValue=//*[@id='assessmentName']/pre
+CloneSplCharMsg=//div[@role='dialog']//nm-message[@id='assessmentName']//span[text()]
+CloneDupCheckMsg=//div[@role='dialog']//nm-message[@id='linkIdentifierPickList']//span[text()]
+LTSSMarketpicklist=(//div[@class='ui-picklist ui-widget ui-helper-clearfix ui-picklist-responsive']//div[contains(text(),'LTSS Markets')])[1]
+CloneMarketpicklist=(//div[@class='ui-picklist ui-widget ui-helper-clearfix ui-picklist-responsive']//div[contains(text(),'Clone to')])[1]
+picklistSearch1=(//div[@class='ui-picklist ui-widget ui-helper-clearfix ui-picklist-responsive']//div[contains(text(),'LTSS Markets')])/..//div[@class='ui-picklist-filter-container ui-widget-content ng-star-inserted']
+picklistSearch2=(//div[@class='ui-picklist ui-widget ui-helper-clearfix ui-picklist-responsive']//div[contains(text(),'Clone to')])/..//div[@class='ui-picklist-filter-container ui-widget-content ng-star-inserted']
+btnpicklistleft=//div[@class='ui-picklist-buttons-cell']/button[@icon='pi pi-angle-left']
+btnpicklistright=//div[@class='ui-picklist-buttons-cell']/button[@icon='pi pi-angle-right']
+btndoubleright=//div[@class='ui-picklist-buttons-cell']/button[@icon='pi pi-angle-double-right']
+btndoubleleft=//div[@class='ui-picklist-buttons-cell']/button[@icon='pi pi-angle-double-left']
+Marketpicklistvalue=//div[contains(text(),'LTSS Markets')]/..//li/div/div[text()=' <CloneMarket> ']
+CloneSuccessMsg=//nm-toast-message//..//..//div[@class='ui-toast-summary']
+CloneSuccessAssessmentMsg=//nm-toast-message//..//..//div[@class='ui-toast-detail']

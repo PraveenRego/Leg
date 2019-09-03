@@ -1,0 +1,31 @@
+btngrpsubmit=//nm-button-group[@class='oneColumn center alignAddAssignmentButtonGroup buttonGroup ng-star-inserted']
+btnsinsubmitbtngrp=//button[@type='<btnname>']
+btnback=//button[contains(text(),'Back')]
+btnvalidateforminpreview=//button[contains(text(),'Validate Form')]
+lblchkboxfieldsinpreview=//span[@class='custom-control-description required']
+lblchkbxgrpradiobtninpreview=//legend[@class='required ng-star-inserted']
+lblothrfieldsinpreview=//label[@class='required ng-star-inserted']
+errmsgallrequiredfields=(//span[contains(text(),'Field is required.')])
+errmsgeachrequiredfield=(//span[contains(text(),'Field is required.')])[<num>]
+chkboxinpreview=//h1/../..//nm-single-checkbox[@id='NIM_<conceptid>']
+chkboxgrpinpreview=(//h1/../../../../..//nm-input-checkbox[@id='NIM_<conceptid>']/..//div//div//p-checkbox)[1]
+calendarinpreview=//h1/../../../../..//nm-input-calendar[@id='NIM_<conceptid>']/..//input
+drpdowninpreview=//h1/../../../..//following::label[@for='NIM_<conceptid>']/../../..//p-dropdown
+radiobtn1inpreview=(//h1/../../../../..//nm-input-radio[@id='NIM_<conceptid>']/..//span)[1]
+txtareainpreview=//label[@for='NIM_<conceptid>']/../..//textarea
+txtfieldinpreview=//label[@for='NIM_<conceptid>']/../..//input
+lblchkboxinpreview=//h1/../..//nm-single-checkbox[@id='NIM_<conceptid>']//label//span[2]
+lblchkboxgrpinpreview=//h1/../../../../..//nm-input-checkbox[@id='NIM_<conceptid>']/..//div//legend
+lblcalendarinpreview=//h1/../../../../..//nm-input-calendar[@id='NIM_<conceptid>']/..//label
+lbldrpdown=//h1/../../../..//following::label[@for='NIM_<conceptid>']
+drpdownfieldinpreview=//h1/../../../..//following::label[@for='NIM_<conceptid>']/../..//p-dropdown
+lblradiobtninpreview=//h1/../../../../..//nm-input-radio[@id='NIM_<conceptid>']//legend
+lbltextareainpreview=//label[@for='NIM_<conceptid>']
+lbltextfieldinpreview=//label[@for='NIM_<conceptid>']
+lnkexpandallinpreview=//button[contains(text(),'Expand All')]
+lnkcollapseallinpreview=//button[contains(text(),'Collapse All')]
+accrdiansinpreview=(//h1/../..//p-accordiontab/div/a)
+txtreqdinaccordian=(//h1/../..//p-accordiontab/div/a)[<num>]
+txtrequrdinpreview=(//h1/../..//p-accordiontab/div/a)[<num>]//following::div[contains(text(),'Required')]
+requiredfieldineachsectionlabels=(//h1/../..//p-accordiontab/div/a)[<num>]/../..//following-sibling::label[@class='required ng-star-inserted']
+requiredfieldineachsectionlegends=(//h1/../..//p-accordiontab/div/a)[<num>]/../..//following-sibling::legend[@class='required ng-star-inserted']

@@ -1,0 +1,17 @@
+btnPublishingrid=(//button[@title='Publish'])[1]
+publishPageTilte=//h2[contains(text(),'Publish Assessment')]
+btnPublish=//button[contains(text(),'Publish')]
+lblPublish=//caption[text()='Published History']
+lblEnvironment=//label[contains(text(),'Environment')]
+lblEffectiveDate=//label[contains(text(),'Effective Date')]
+gridEnv=//tr//td[1]//span//span
+gridEffDate=//tr//td[2]//span//span
+gridPublishedBy=//tr//td[3]//span//span
+gridLastUpdatedon=//tr//td[4]//span//span
+gridPublishon=//tr//td[5]//span//span
+gridPublishStatus=//tr//td[6]//span//span
+userName=//div[@class='userName']//nm-value
+assessmentModifiedon=//tr//td[3]//span//span
+lblAssessmentName=//label[contains(text(),'Assesment Name')]//parent::nm-input-label//following-sibling::pre
+publishHeader=//caption[text()='Published History']/../../..//th//nm-th
+

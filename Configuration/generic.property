@@ -1,0 +1,10 @@
+lblTextbox=//label[contains(text(),'<fieldname>')]
+inpTextbox=//label[contains(text(),'<fieldname>')]/../../..//input
+inppreTextbox=//label[contains(text(),'<fieldname>')]/../../..//pre
+lblDropdown=//label[contains(text(),'<fieldname>')]
+inpDropdown=//label[contains(text(),'<fieldname>')]/../../..//div/label
+inpDropdownvalues=//label[contains(text(),'<fieldname>')]/../../..//div//li
+optDropdown=//label[contains(text(),'<fieldname>')]/../../..//div//li/span[contains(text(),'<option>')]
+rowvaluesDropdown=//label[contains(text(),'<fieldname>')]/../../..//div//li/span
+optDropdown=//label[contains(text(),'<fieldname>')]/../../..//div//li/span[contains(text(),'<option>')]
+rowvaluesDropdown=//label[contains(text(),'<fieldname>')]/../../..//div//li/span

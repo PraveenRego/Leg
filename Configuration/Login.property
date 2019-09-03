@@ -1,0 +1,7 @@
+txtusername = //input[@name='username']
+txtpassword = //input[@name='password']
+btnlogin = //input[@type='submit']
+hdrLTSSAdminConsole=//p[contains(text(),'LTSS Administrative Tool')]
+lnklogout=Log Out
+hdrErrorPage = //h1[contains(text(),'Whitelabel Error Page')]
+hdrAdminbuilder=//h1[text()='Admin Tool Builder']

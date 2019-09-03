@@ -1,0 +1,25 @@
+tblScoreCategory=//div[contains(text(),'Score Category')]/..//li[1]
+btnpicklistright=//div[@class='ui-picklist-buttons-cell']/button[@icon='pi pi-angle-right']
+tblScoreCategoryfirstvalue=//div[contains(text(),'Score Category')]/..//li[1]/div/div
+tblScoreCategoryAddedrecentvalue=//div[contains(text(),'Score Category Added')]/..//li/div/div
+pagetilte=//h2[contains(text(),'Add Combine Scoring Category')]
+groupDesc=//label[contains(text(),' Group Category Description')]
+picklistScoreCategory=(//div[@class='ui-picklist ui-widget ui-helper-clearfix ui-picklist-responsive']//div[contains(text(),'Score Category')])[1]
+picklistScoreCategoryAdded=//div[@class='ui-picklist ui-widget ui-helper-clearfix ui-picklist-responsive']//div[contains(text(),'Score Category Added')]
+scoreRangeValue=//label[contains(text(),'Score Range Value')]
+lowScoreRange=//label[contains(text(),'Low Score Range')]
+highScoreRange=//label[contains(text(),'High Score Range')]
+lblerrormsgScoreLowRange=//label[text()=' Low Score Range ']/../../..//li/span
+tblScoreCategory=//div[contains(text(),'Score Category')]/..//li[1]
+btnpicklistright=//div[@class='ui-picklist-buttons-cell']/button[@icon='pi pi-angle-right']
+tblScoreCategoryfirstvalue=//div[contains(text(),'Score Category')]/..//li[1]/div/div
+tblScoreCategoryAddedrecentvalue=//div[contains(text(),'Score Category Added')]/..//li/div/div
+pagetilte=//h2[contains(text(),'Combine Scoring Categories')]
+groupDesc=//label[contains(text(),'Group Category Description')]
+picklistScoreCategory=(//div[@class='ui-picklist ui-widget ui-helper-clearfix ui-picklist-responsive']//div[contains(text(),'Score Category')])[1]
+picklistScoreCategoryAdded=//div[@class='ui-picklist ui-widget ui-helper-clearfix ui-picklist-responsive']//div[contains(text(),'Score Category Added')]
+scoreRangeValue=//label[contains(text(),'Score Range Value')]
+lowScoreRange=//label[contains(text(),'Low Score Range')]
+highScoreRange=//label[contains(text(),'High Score Range')]
+lblerrormsgScoreLowRange=//nm-input[@id='errorMessage']/p
+lblerrormsgScoreHighRange=//nm-input[@id='errorMessage']/p
